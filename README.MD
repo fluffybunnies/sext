@@ -1,6 +1,4 @@
 
-# sext
-
 ## Description
 
 Emulates jQuery's $.extend
