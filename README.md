@@ -5,4 +5,6 @@
 
 Simple extend (sext) emulates jQuery's $.extend
 
-Optional deep extend
+Optional deep extend. Skips non Objects.
+
+sext( [deep,] target [,obj1 [,objN]] )
