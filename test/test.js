@@ -35,9 +35,10 @@ test('can worky',function(t){
   t.equal(r.a.a, undef, 'shallow worky')
   t.equal(r.a.b, 3, 'shallow worky')
   t.equal(sub.a.b, undef, 'shallow worky')
+  t.equal(o1.b, 'sup', 'non clobbery')
 
   sext(o1,o2,o3)
-  t.equal(o1.b, 'chums', 'non clobbery')
+  t.equal(o1.b, 'chums', 'no copy')
 
   t.end()
 
