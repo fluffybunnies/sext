@@ -11,10 +11,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:alecMint/sext.git"
+    "url": "git@github.com:fluffybunnies/sext.git"
   },
   "bugs": {
-    "url": "https://github.com/alecMint/sext/issues"
+    "url": "https://github.com/fluffybunnies/sext/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
