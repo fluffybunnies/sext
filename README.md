@@ -4,3 +4,5 @@
 ## Description
 
 Simple extend (sext) emulates jQuery's $.extend
+
+Optional deep extend
