@@ -1,0 +1,16 @@
+{
+  "name": "sext",
+  "version": "0.0.1",
+  "description": "Emulates jQuery's $.extend()",
+  "keywords": [
+    "extend"
+  ],
+  "homepage": "https://github.com/alecMint/sext",
+  "author": "fluffybunnies",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alecMint/sext.git"
+  }
+}
