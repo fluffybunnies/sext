@@ -1,5 +1,5 @@
 
-![Build Status](https://secure.travis-ci.org/fluffybunnies/sext.png)](http://travis-ci.org/fluffybunnies/sext)
+[![Build Status](https://secure.travis-ci.org/fluffybunnies/sext.png)](http://travis-ci.org/fluffybunnies/sext)
 
 ## Description
 
