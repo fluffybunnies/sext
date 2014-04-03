@@ -1,0 +1,131 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/ahulce/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/tmp.tgz
+12 verbose folder .
+13 info prepublish sext@0.0.8
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/ahulce/.npm/1f1177db-tar.lock
+16 silly lockFile 6abe4b15-98141-0-6917238566093147-tmp-tgz tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/tmp.tgz
+17 verbose lock tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/tmp.tgz /Users/ahulce/.npm/6abe4b15-98141-0-6917238566093147-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 6abe4b15-98141-0-6917238566093147-tmp-tgz tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/tmp.tgz
+21 silly lockFile 6abe4b15-98141-0-6917238566093147-tmp-tgz tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/tmp.tgz
+22 verbose tar unpack /var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/tmp.tgz
+23 silly lockFile da12323a-98141-0-6917238566093147-package tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/package
+24 verbose lock tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/package /Users/ahulce/.npm/da12323a-98141-0-6917238566093147-package.lock
+25 silly lockFile 6abe4b15-98141-0-6917238566093147-tmp-tgz tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/tmp.tgz
+26 verbose lock tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/tmp.tgz /Users/ahulce/.npm/6abe4b15-98141-0-6917238566093147-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry index.js
+32 silly gunzTarPerm extractEntry .travis.yml
+33 silly gunzTarPerm extractEntry test/test.js
+34 silly lockFile da12323a-98141-0-6917238566093147-package tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/package
+35 silly lockFile da12323a-98141-0-6917238566093147-package tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/package
+36 silly lockFile 6abe4b15-98141-0-6917238566093147-tmp-tgz tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/tmp.tgz
+37 silly lockFile 6abe4b15-98141-0-6917238566093147-tmp-tgz tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/tmp.tgz
+38 verbose tar pack [ '/Users/ahulce/.npm/sext/0.0.8/package.tgz',
+38 verbose tar pack   '/var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/package' ]
+39 verbose tarball /Users/ahulce/.npm/sext/0.0.8/package.tgz
+40 verbose folder /var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/package
+41 silly lockFile da12323a-98141-0-6917238566093147-package tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/package
+42 verbose lock tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/package /Users/ahulce/.npm/da12323a-98141-0-6917238566093147-package.lock
+43 silly lockFile a6b212c4-hulce-npm-sext-0-0-8-package-tgz tar:///Users/ahulce/.npm/sext/0.0.8/package.tgz
+44 verbose lock tar:///Users/ahulce/.npm/sext/0.0.8/package.tgz /Users/ahulce/.npm/a6b212c4-hulce-npm-sext-0-0-8-package-tgz.lock
+45 silly lockFile da12323a-98141-0-6917238566093147-package tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/package
+46 silly lockFile da12323a-98141-0-6917238566093147-package tar:///var/folders/w7/gq66wjd95wl35_n2m741b0rxhxywrv/T/npm-6847-bRRi7CIq/1396421198141-0.6917238566093147/package
+47 silly lockFile a6b212c4-hulce-npm-sext-0-0-8-package-tgz tar:///Users/ahulce/.npm/sext/0.0.8/package.tgz
+48 silly lockFile a6b212c4-hulce-npm-sext-0-0-8-package-tgz tar:///Users/ahulce/.npm/sext/0.0.8/package.tgz
+49 silly lockFile 457d5127-rs-ahulce-npm-sext-0-0-8-package /Users/ahulce/.npm/sext/0.0.8/package
+50 verbose lock /Users/ahulce/.npm/sext/0.0.8/package /Users/ahulce/.npm/457d5127-rs-ahulce-npm-sext-0-0-8-package.lock
+51 silly lockFile 457d5127-rs-ahulce-npm-sext-0-0-8-package /Users/ahulce/.npm/sext/0.0.8/package
+52 silly lockFile 457d5127-rs-ahulce-npm-sext-0-0-8-package /Users/ahulce/.npm/sext/0.0.8/package
+53 verbose tar unpack /Users/ahulce/.npm/sext/0.0.8/package.tgz
+54 silly lockFile b948284e-rs-ahulce-npm-sext-0-0-8-package tar:///Users/ahulce/.npm/sext/0.0.8/package
+55 verbose lock tar:///Users/ahulce/.npm/sext/0.0.8/package /Users/ahulce/.npm/b948284e-rs-ahulce-npm-sext-0-0-8-package.lock
+56 silly lockFile a6b212c4-hulce-npm-sext-0-0-8-package-tgz tar:///Users/ahulce/.npm/sext/0.0.8/package.tgz
+57 verbose lock tar:///Users/ahulce/.npm/sext/0.0.8/package.tgz /Users/ahulce/.npm/a6b212c4-hulce-npm-sext-0-0-8-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm extractEntry index.js
+63 silly gunzTarPerm extractEntry .travis.yml
+64 silly gunzTarPerm extractEntry test/test.js
+65 silly lockFile b948284e-rs-ahulce-npm-sext-0-0-8-package tar:///Users/ahulce/.npm/sext/0.0.8/package
+66 silly lockFile b948284e-rs-ahulce-npm-sext-0-0-8-package tar:///Users/ahulce/.npm/sext/0.0.8/package
+67 silly lockFile a6b212c4-hulce-npm-sext-0-0-8-package-tgz tar:///Users/ahulce/.npm/sext/0.0.8/package.tgz
+68 silly lockFile a6b212c4-hulce-npm-sext-0-0-8-package-tgz tar:///Users/ahulce/.npm/sext/0.0.8/package.tgz
+69 verbose chmod /Users/ahulce/.npm/sext/0.0.8/package.tgz 644
+70 verbose chown /Users/ahulce/.npm/sext/0.0.8/package.tgz [ 1642033947, 1429385722 ]
+71 silly lockFile 3a52ce78- .
+72 silly lockFile 3a52ce78- .
+73 silly publish { name: 'sext',
+73 silly publish   version: '0.0.8',
+73 silly publish   description: 'Emulates jQuery\'s $.extend()',
+73 silly publish   keywords: [ 'extend' ],
+73 silly publish   homepage: 'https://github.com/fluffybunnies/sext',
+73 silly publish   author: { name: 'fluffybunnies' },
+73 silly publish   license: 'MIT',
+73 silly publish   main: 'index.js',
+73 silly publish   repository: { type: 'git', url: 'git@github.com:fluffybunnies/sext.git' },
+73 silly publish   devDependencies: { tape: '~2.12.1' },
+73 silly publish   bugs: { url: 'https://github.com/fluffybunnies/sext/issues' },
+73 silly publish   scripts: { test: 'node test/test.js' },
+73 silly publish   readme: '\n[![Build Status](https://secure.travis-ci.org/fluffybunnies/sext.png)](http://travis-ci.org/fluffybunnies/sext)\n\n## Description\n\nSimple extend (sext) emulates jQuery\'s $.extend\n\nOptional deep extend. Silently ignores non Objects.\n\n```\nsext( [deep,] target [,obj1 [,objN]] )\n```\n',
+73 silly publish   readmeFilename: 'README.md',
+73 silly publish   _id: 'sext@0.0.8',
+73 silly publish   dist: { shasum: '47226dacd2b264e50817d04d3aa1038f750d1e48' },
+73 silly publish   _from: '.' }
+74 verbose url raw sext
+75 verbose url resolving [ 'https://registry.npmjs.org/', './sext' ]
+76 verbose url resolved https://registry.npmjs.org/sext
+77 info trying registry request attempt 1 at 23:46:38
+78 http PUT https://registry.npmjs.org/sext
+79 http 403 https://registry.npmjs.org/sext
+80 error publish Failed PUT 403
+81 error Error: forbidden cannot modify pre-existing version: 0.0.8
+81 error old={"name":"sext","version":"0.0.8","description":"Emulates jQuery's $.extend()","keywords":["extend"],"homepage":"https://github.com/fluffybunnies/sext","author":{"name":"fluffybunnies"},"license":"MIT","main":"index.js","repository":{"type":"git","url":"git@github.com:fluffybunnies/sext.git"},"devDependencies":{"tape":"~2.12.1"},"bugs":{"url":"https://github.com/fluffybunnies/sext/issues"},"scripts":{"test":"node test/test.js"},"_id":"sext@0.0.8","dist":{"shasum":"296090e3e25f2058646cd6731a9224ef09932a34","tarball":"http://registry.npmjs.org/sext/-/sext-0.0.8.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"fluffybunnies","email":"ohsosexybrit@gmail.com"},"maintainers":[{"name":"fluffybunnies","email":"ohsosexybrit@gmail.com"}]}
+81 error new={"name":"sext","version":"0.0.8","description":"Emulates jQuery's $.extend()","keywords":["extend"],"homepage":"https://github.com/fluffybunnies/sext","author":{"name":"fluffybunnies"},"license":"MIT","main":"index.js","repository":{"type":"git","url":"git@github.com:fluffybunnies/sext.git"},"devDependencies":{"tape":"~2.12.1"},"bugs":{"url":"https://github.com/fluffybunnies/sext/issues"},"scripts":{"test":"node test/test.js"},"readme":"\u000a[![Build Status](https://secure.travis-ci.org/fluffybunnies/sext.png)](http://travis-ci.org/fluffybunnies/sext)\u000a\u000a## Description\u000a\u000aSimple extend (sext) emulates jQuery's $.extend\u000a\u000aOptional deep extend. Silently ignores non Objects.\u000a\u000a```\u000asext( [deep,] target [,obj1 [,objN]] )\u000a```\u000a","readmeFilename":"README.md","_id":"sext@0.0.8","dist":{"shasum":"47226dacd2b264e50817d04d3aa1038f750d1e48","tarball":"http://registry.npmjs.org/sext/-/sext-0.0.8.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"fluffybunnies","email":"ohsosexybrit@gmail.com"},"maintainers":[{"name":"fluffybunnies","email":"ohsosexybrit@gmail.com"}]}: sext
+81 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+81 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+81 error     at Request.EventEmitter.emit (events.js:98:17)
+81 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+81 error     at Request.EventEmitter.emit (events.js:117:20)
+81 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+81 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+81 error     at _stream_readable.js:920:16
+81 error     at process._tickCallback (node.js:415:13)
+82 error If you need help, you may report this *entire* log,
+82 error including the npm and node versions, at:
+82 error     <http://github.com/npm/npm/issues>
+83 error System Darwin 13.1.0
+84 error command "node" "/usr/local/bin/npm" "publish"
+85 error cwd /Users/ahulce/Dropbox/Beachmint/sext
+86 error node -v v0.10.26
+87 error npm -v 1.4.3
+88 verbose exit [ 1, true ]

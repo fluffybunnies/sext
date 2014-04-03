@@ -1,9 +1,12 @@
 {
   "name": "sext",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Emulates jQuery's $.extend()",
   "keywords": [
-    "extend"
+    "extend",
+    "merge",
+    "copy",
+    "object"
   ],
   "homepage": "https://github.com/fluffybunnies/sext",
   "author": "fluffybunnies",
