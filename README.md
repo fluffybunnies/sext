@@ -15,7 +15,6 @@ sext( [deep,] target [,obj1 [,objN]] )
 
 ```
 // copy
-
 var sext = require('sext')
 
 var pirateOg = {name: 'Pompeius'}
@@ -24,7 +23,6 @@ var pirateNb = sext({}, pirateOg)
 
 ```
 // extend
-
 var sext = require('sext')
 
 var f1 = new Function
