@@ -43,3 +43,23 @@ test('can worky',function(t){
   t.end()
 
 })
+
+test('funcs cool 2',function(t){
+  var f1 = new Function
+  f1.prototype.giveMeCheese = function(){
+    return 'brie'
+  }
+
+  var f2 = new Function
+  f2.prototype.giveMeWine = function(){
+    return 'zin'
+  }
+
+  sext(f1.prototype,f2.prototype)
+  var waiter = new f1()
+
+  t.ok(f1.prototype.giveMeWine instanceof Function, 'func in da house')
+  t.equal(waiter.giveMeWine(), 'zin', 'func in da house')
+
+  t.end();
+})
