@@ -21,6 +21,9 @@ var sext = require('sext')
 
 var pirateOg = {name: 'Pompeius'}
 var pirateNb = sext({}, pirateOg)
+
+console.log(pirateNb);
+// { name: 'Pompeius' }
 ```
 
 #### Extend
@@ -39,8 +42,9 @@ f2.prototype.giveMeWine = function(){
 
 sext(f1.prototype,f2.prototype)
 var waiter = new f1()
-waiter.giveMeWine()
-// "zin"
+
+console.log( waiter.giveMeWine() )
+// 'zin'
 ```
 
 #### Arrays work too
