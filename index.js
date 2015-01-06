@@ -7,13 +7,13 @@ function sext(/*deep,o1,o2,etc*/){
 	;
 	for (i=deep?2:1;i<arguments.length;++i) {
 		o2 = arguments[i]
-		if (!(o2 instanceof Object))
+		if (typeof o2 !== 'object')
 			continue
-		if (!(o1 instanceof Object))
+		if (typeof o1 !== 'object')
 			o1 = Array.isArray(o2) ? [] : {}
 		Object.keys(o2).forEach(function(k){
 			o1[k] = deep && o2[k] instanceof Object ? sext(true,o1[k],o2[k]) : o2[k]
 		})
 	}
-	return o1 instanceof Object ? o1 : {}
+	return typeof(o1) === 'object' ? o1 : {}
 }
