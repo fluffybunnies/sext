@@ -3,7 +3,9 @@
 
 ## Description
 
-Simple extend (sext) emulates jQuery's $.extend
+Simple extend (sext) emulates jQuery's $.extend except:
+- undefined values are not ignored
+- numeric object keys are transferred to target arrays
 
 Optional deep extend. Silently ignores non Objects.
 

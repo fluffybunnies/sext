@@ -1,28 +1,28 @@
 {
-  "name": "sext",
-  "version": "0.0.10",
-  "description": "Emulates jQuery's $.extend()",
-  "keywords": [
-    "extend",
-    "merge",
-    "copy",
-    "object"
-  ],
-  "homepage": "https://github.com/fluffybunnies/sext",
-  "author": "fluffybunnies",
-  "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:fluffybunnies/sext.git"
-  },
-  "devDependencies": {
-    "tape": "~2.12.1"
-  },
-  "bugs": {
-    "url": "https://github.com/fluffybunnies/sext/issues"
-  },
-  "scripts": {
-    "test": "node test/test.js"
-  }
+	"name": "sext",
+	"version": "0.1.0",
+	"description": "Emulates jQuery's $.extend()",
+	"keywords": [
+		"extend",
+		"merge",
+		"copy",
+		"object"
+	],
+	"homepage": "https://github.com/fluffybunnies/sext",
+	"author": "fluffybunnies",
+	"license": "MIT",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:fluffybunnies/sext.git"
+	},
+	"devDependencies": {
+		"tape": "~2.12.1"
+	},
+	"bugs": {
+		"url": "https://github.com/fluffybunnies/sext/issues"
+	},
+	"scripts": {
+		"test": "node test/test.js"
+	}
 }
