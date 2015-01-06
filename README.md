@@ -15,16 +15,16 @@ sext( [deep,] target [,obj1 [,objN]] )
 
 ## Sextamples
 
+#### Copy
 ```
-// copy
 var sext = require('sext')
 
 var pirateOg = {name: 'Pompeius'}
 var pirateNb = sext({}, pirateOg)
 ```
 
+#### Extend
 ```
-// extend
 var sext = require('sext')
 
 var f1 = new Function
@@ -40,4 +40,21 @@ f2.prototype.giveMeWine = function(){
 sext(f1.prototype,f2.prototype)
 var waiter = new f1()
 waiter.giveMeWine()
+// "zin"
+```
+
+#### Arrays work too
+```
+var sext = require('sext')
+
+var o1 = [{color:'blue', facial_expression:'happy'}, 12]
+var o2 = [{color:'pomegranate'}]
+
+var o = sext([], o1, o2)
+console.log(o)
+// [ { color: 'pomegranate' }, 12 ]
+
+var o = sext(true, [], o1, o2)
+console.log(o)
+//[ { color: 'pomegranate', facial_expression: 'happy' }, 12 ]
 ```
