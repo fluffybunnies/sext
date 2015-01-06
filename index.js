@@ -3,9 +3,7 @@ module.exports = sext;
 
 function sext(/*deep,o1,o2,etc*/){
 	var deep = arguments[0] === true
-		,o1 = arguments[deep?1:0]
-		,o2 = arguments[deep?2:1]
-		,i
+		,o1 = arguments[deep?1:0],o2,i
 	;
 	for (i=deep?2:1;i<arguments.length;++i) {
 		o2 = arguments[i]
