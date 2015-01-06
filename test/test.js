@@ -107,6 +107,10 @@ test('arrays',function(t){
 	t.ok(!(o instanceof Array), 'target remains an object');
 
 
+	o = sext(true, 'im not an object', 'neither am i', o1, o2, o3, o4);
+	t.ok(o instanceof Array, 'target inherits arrayness');
+
+
 	t.end();
 })
 
