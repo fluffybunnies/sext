@@ -17,5 +17,5 @@ function sext(/*deep,o1,o2,etc*/){
 			o1[k] = deep && o2[k] instanceof Object ? sext(true,o1[k],o2[k]) : o2[k]
 		})
 	}
-	return o1 || {}
+	return o1 instanceof Object ? o1 : {}
 }
