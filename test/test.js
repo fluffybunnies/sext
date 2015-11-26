@@ -31,6 +31,9 @@ test('can worky',function(t){
 	t.equal(sub.b, undef, 'deep worky')
 	t.equal(o1.b, 'sup', 'deep worky')
 
+	var r = sext(true,{one:{a:1,b:1}},{one:{a:2}})
+	t.ok(r.one.b, 'deep should not overwrite parent layer')
+
 	r = sext({},o1,o2,o3,false)
 	t.equal(r.a.a, undef, 'shallow worky')
 	t.equal(r.a.b, 3, 'shallow worky')

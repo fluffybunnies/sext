@@ -62,3 +62,8 @@ var o = sext(true, [], o1, o2)
 console.log(o)
 //[ { color: 'pomegranate', facial_expression: 'happy' }, 12 ]
 ```
+
+## To Do
+- If only one argument is passed, extend it against a blank object or array
+- Include some more examples, e.g. for arrays
+
