@@ -117,4 +117,20 @@ test('arrays',function(t){
 	t.end();
 })
 
+test('skip non-objects',function(t){
+	var o
+
+	o = sext({a:1},null)
+	t.ok(o && o.a==1, 'null did not clobber target')
+	o = sext(true,{a:1},null)
+	t.ok(o && o.a==1, 'null did not clobber target')
+
+	o = sext({a:1},undef)
+	t.ok(o && o.a==1, 'undefined did not clobber target')
+	o = sext(true,{a:1},undef)
+	t.ok(o && o.a==1, 'undefined did not clobber target')
+
+	t.end()
+})
+
 
